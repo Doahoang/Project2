@@ -1,0 +1,428 @@
+/* reset code */
+body, h1, h2, h3, h4, h5, h6, p, ul, li{
+    padding: 0px;
+    margin: 0px;
+}
+/* thuoc tinh chung */
+.bg-main{
+    background: rgb(100,20,186);
+    background: linear-gradient(90deg, rgba(100,20,186,1) 0%, rgba(124,65,182,1) 100%, rgba(252,176,69,1) 100%);
+}
+.box{
+    padding: 0px 15px;
+}
+/* xac dinh cac class su dung de tao kich thuoc */
+/* desktop */
+@media screen and (min-width: 768px) {
+    .w25{ width: 25%;}
+    .w33{ width: 33.3%;}
+    .w40{ width: 40%;}
+    .w50{ width: 50%;}
+    .w60{ width: 60%;}
+    .container{ width: 1200px; margin: 0 auto;}
+    .left{float: left;}
+    .right{float: right;}
+    .clear{clear: both;}
+    
+}
+#logo img{  
+    margin: 15px;
+    width: 200px;
+}
+.nav ul{
+    margin-top: 15px;
+}
+.nav ul li{
+    list-style-type: none;
+    float: left;
+    padding: 5px 10px;
+}
+.nav ul li:hover a{
+    color: white;
+}
+.nav ul li a{ color: wheat; font-size: 18px; font-weight: 500px; text-decoration: none;}
+.slider-content-text{
+    padding-top: 150px;
+    color: wheat;
+}
+#slider .container{
+    background-color: transparent;
+}
+.slider-content-text .title{
+    font-size: 50px;
+    color: white;
+}
+.slider-content-text p{
+    font-size: 25px;
+    color: white;
+}
+.slider-content-text .Download{
+    background-color: rgb(199, 87, 199);
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    border-width: 1px;
+    border-style: none;
+}
+.slider-content-text .Download:hover{
+    background-color: rgb(126, 47, 200);
+}
+.slider-content-text .watchnow{
+    background-color: transparent;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    border-width: 1px;
+    border-style: none;
+}
+.box .Total-Instal{
+    background-color: transparent;
+    border-radius: 15px;
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+    border-width: 1px;
+    border-style: none;
+}
+.box .Total-Instal p{
+    font-size: 10px;
+}
+.box .Total-Download{
+    background-color: transparent;
+    border-radius: 15px;
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+    border-width: 1px;
+    border-style: none;
+}
+.box .Active-Users{
+    background-color: transparent;
+    border-radius: 15px;
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+    border-width: 1px;
+    border-style: none;
+}
+#slider .Total-Instal{
+    font-size: 15px;
+}
+#slider .Total-Download{
+    font-size: 15px;
+}
+#slider .Active-Users{
+    font-size: 15px;
+}
+#slider .container{
+    background-image: url(hero-bottom-shape-2.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+#new1{
+    padding-top: 30px;
+    margin: 20px;
+}
+#new1 .box-content{
+    box-shadow: 1px 2px 7px rgba(72, 72, 72, 0.641);
+    border-radius: 15px;
+    padding: 40px;
+    color: black;
+}
+#new1 .box-content:hover{
+    background-color: #4f1bc5;
+    color: white;
+    margin-top: -10px;
+    transition: transform 1.0s;
+}
+#news1 .box{
+    padding: 15px;
+}
+#new1:active{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#new1 .fast{ font-size: 30px;}
+
+#new2 {
+    background-size: cover;
+    background-image: url(about-bg-shape.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    margin: 20px;
+    padding: 50px;
+}
+#new2 .box-content{
+    padding: 50px;
+}
+#new2 .box-content p{
+    padding: 20px;
+    color: rgb(193, 188, 188);
+}
+#new2 .nav li{
+    padding: 15px;
+    list-style-type: none;
+}
+#new2 .nav li a{
+    color: rgb(193, 188, 188);
+    text-decoration: none;
+}
+#new2 .nav li::before{
+    list-style-type: none;
+    content: '\2022';
+    color: blue;
+    width: 1em;
+    margin-right: 0.5cm;
+}
+#new2 .slider-bottom .title h1{
+    font-size: 30px;
+    color: blue;
+}
+@keyframes changeNumber {
+    from { content: "123"; }
+    to { content: "456"; }
+}
+
+/* Thiết lập kiểu cho số */
+.changing-number {
+    font-size: 24px;
+    color: blue;
+    font-weight: bold;
+    animation: changeNumber 3s infinite alternate; /* Áp dụng keyframes */
+}
+#new3 img{
+    width: 100%;
+}
+#new3 .slider{
+    padding: 50px;
+
+}
+#new3 .title{
+    font-size: 40px;
+}
+#new3 .Objectively{
+    font-size: 20px;
+}
+#new3 .nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+#new3 .nav li::before{
+    list-style-type: none;
+    content: '\2022';
+    color: blue;
+    width: 1em;
+    margin-right: 0.5cm; 
+    font-size: 25px;
+}
+#new3 .GetStarNow {
+    padding: 20px;
+    background-color: rgb(144, 84, 168);
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    border-width: 1px;
+    border-style: none;
+    margin-top: 40px;
+    width: 55%;
+
+}
+#new3 .MoreAboutUs{
+    padding: 20px;
+    background-color:white;
+    border-radius: 15px;
+    font-size: 20px;
+    color: black;
+    padding: 15px;
+    border-width: 1px;
+    margin-top: 40px;
+    width: 60%;
+}
+#new3 .GetStarNow:hover{
+    background-color: blueviolet;
+}
+#new3 .MoreAboutUs:hover{
+    background-color: blueviolet;
+    color: white;
+}
+#new4{
+    padding: 50px;
+    background-image: url(cta-bg.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-color: #4f1bc5;
+}
+#new4 .box{
+    color: white;
+    text-align: center;
+}
+#new4 .Downloadourapps{
+    font-size: 50px;
+    padding: 25px;
+}
+#new4 .Star{
+    font-size: 25px;
+    padding: 20px;
+}
+#nwe4 .Window{
+    font-size: 30px;
+}
+#new4 .box-content-text{
+    padding: 20px;
+    background-color:rgb(91, 74, 199);
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    border-width: 1px;
+    width: 50%;
+}
+#new4 .box-content-text:hover{
+    background-color: #4f1bc5;
+    color: white;
+}
+#new5 .box{
+    padding: 0px 15px;
+}
+#new5 .title{
+    font-size: 40px;
+    margin-top: 50px;
+}
+#new5 .text-center{ 
+    text-align: center; 
+}
+#new5 div.box-content{
+    margin-left: 50px;
+}
+.Objectively{
+    width: 70%;
+    margin: auto;
+}
+#new5 p.Objectively {
+    margin-left: 160px;
+}
+
+.bottom-100{ margin-bottom: 100px;}
+#new5 .box-icon{
+    float: left;
+    width: 20%;
+    font-size: 50px;
+    margin-top: 20px;
+    
+}
+#new5 .box-content-text{
+    float: left;
+    width: 80%;
+}
+#new5 p{ margin: 0px; padding: 15px 0px;}
+#new4 img{ width: 100%}
+.our-process{
+    margin-top: 50px;
+    background-color: #bfbfbf;
+    padding-top: 50px;
+}
+.text-center{
+    text-align: center;
+}
+.our-process h2.title  {
+    font-size: 40px;
+}
+.our-process p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+.our-process img{
+    width: 100%;
+}
+.icon-our-process{
+    width: 20%;
+}
+.icon-our-process div .fa-solid{
+font-size: 50px;
+color: rgb(2, 6, 6);
+}
+.icon-our-process div{
+    background: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 60%;
+    min-width: 50px;
+    min-height: 50px;
+}
+.content-our-process{
+    width: 75%;
+}
+div.botton-our-process h3{
+    margin-left: 40px;
+}
+div.botton-our-process p{
+    margin-left: 40px;
+    padding-top: 20px;
+}
+div.botton-our-process-2 h3{
+    margin-left: 140px;
+    padding-top: 40px;
+}
+div.botton-our-process-2 p{
+    margin-left: 15px;
+    margin-top: 20px;
+    
+}
+div.icon-our-process.left{
+    padding-top: 40px;
+}
+div.botton-our-process-3 h3 {
+    padding-top: 40px;
+    margin-left: 30px;
+}
+div.botton-our-process-3 p{
+    margin-left: 30px ;
+    padding-top: 20px;
+}
+#top-footer-1{
+    background: hsl(215, 86%, 36%)
+}
+.newletter{
+    background: #6321ff;
+    border-radius: 15px ;
+    position: relative;
+    top: -50px;
+    color: white;
+}
+.newletter .box{
+    padding: 20px  50px;
+}
+.content-footer, .content-footer a{
+    color: white;
+}
+.newletter form{
+    width: 300px;
+    background: white;
+    border-radius: 20px;
+    padding: 6px 15px;
+    margin-top: 20px;
+}
+.newletter form input{
+    width: 250px;
+    border: 0px;
+
+}
+div.box button  {
+    border-radius: 10px;
+    background-color: #00afe0;
+    font-size: 20px;
+}
+div.content-footer{
+    font-size: 20px;
+}
+#top-footer-1 ul {
+    font-size: 15px;
+}
+div#footer {
+    padding-top: 100px;
+}
