@@ -1,0 +1,96 @@
+body, h1, h2, h3, h4, h5, h6, p{
+    padding: 0px;
+    margin: 0px;
+}
+@media screen and (min-width: 768px) {
+    .w25{ width: 25%;}
+    .w33{ width: 33.3%;}
+    .w40{ width: 40%;}
+    .w50{ width: 50%;}
+    .w60{ width: 60%;}
+    .container{ width: 1200px; margin: 0 auto;}
+    .left{float: left;}
+    .right{float: right;}
+    .clear{clear: both;}
+    
+}
+#header .container{
+    background-size: cover;
+    background-image: url(anh1.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+#header .title{
+    font-size: 50px;
+    font-family: cursive;
+    margin: auto;
+    padding-top: 150px;
+}
+#header .title:hover{
+    color: rgb(214, 32, 32);
+}
+#main{
+    padding-top: 10px;
+}
+#main .box-img1 img,
+#main .box-img2 img,
+#main .box-img3 img {
+    width: 350px;
+}
+#main .box-img1 img{width: 480px;}
+#main .box-img2 img{
+    padding-left: 10px;
+}
+#main .box-img3 img {padding-left: 10px;}
+#main .name1{
+    font-family: cursive;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#new1 .container{
+    background-image: url(anh5.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 800px;
+    padding: 10px;
+}
+#new1 .title{
+    padding-top: 700px;
+    font-family: cursive;
+}
+#new2 .container{
+    background-image: url(anh6.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 800px;
+    padding: 10px;
+}
+#new2 .title{
+    color: white;
+    font-family: cursive;
+
+}
+#new3{
+    padding-top: 10px;
+    font-family: cursive;
+}
+#new3 .box-content{
+    background-image: url(anh7.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 500px;
+  
+}
+#new3 .box-slider{
+    background-image: url(anh8.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 500px;
+
+}
